@@ -2,20 +2,21 @@
     font-family: opensans-bold;
     src: url(../fonts/opensans-bold.ttf);
 }
+
 @font-face {
     font-family: opensans-italic;
     src: url(../fonts/opensans-italic.ttf);
 }
+
 @font-face {
     font-family: opensans-light;
     src: url(../fonts/opensans-light.ttf);
 }
+
 @font-face {
     font-family: opensans-regular;
     src: url(../fonts/opensans-regular.ttf);
 }
-
-
 
 body {
     width: 1240px;
@@ -24,24 +25,6 @@ body {
     font-weight: 400;
 }
 
-
-/*
-OpenSans
-
-Regular (400) normal
-
-Semibold (600) normal
-
-Bold (700) normal
-
-Light (300) normal
-
-PlayfairDisplay
-
-Bold (700) normal
-
-Bold (700) italic
-*/
 
 /*
 .padding-site {
@@ -82,14 +65,16 @@ Bold (700) italic
 }
 
 .homepage-header {
-        display: flex;
+    display: flex;
     margin: 0;
-    
+
 }
 
 .logo-svg {
     fill: currentColor;
     margin-top: 25px;
+    width: 400px;
+    height: 83px;
 }
 
 .menu-navigacion {
@@ -106,30 +91,30 @@ Bold (700) italic
 }
 
 .menu-list {
-   margin: 74px 0 23px 27px;
+    margin: 60px 0px 23px 0px;
 }
 
 .menu-link {
-/*     margin: 74px 0 0 0;*/
+    /*     margin: 74px 0 0 0;*/
     font-family: 'opensans-regular', 'arial', sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
     text-decoration: none;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 
 
 .menu-link:hover {
-font-size: 18px;
-line-height: 24px;
-font-weight: 700;
-color: #e2d1a6;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #e2d1a6;
 }
 
 main {
-     min-height: 769px;
+    min-height: 769px;
     background-color: #353436;
     background-image: url(../img/fabulous_modern_pendant_lamp_for_dining_room_1705.jpg);
 }
