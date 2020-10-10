@@ -66,6 +66,7 @@ body {
     fill: currentColor;
     width: 400px;
     height: 83px;
+    margin-right: 65px;
 }
 
 .menu-navigacion {
@@ -77,27 +78,76 @@ body {
 .menu-header-list {
     display: flex;
     justify-content: space-between;
-    list-style-type: none;
     margin-top: 60px;
 }
 
-.menu-link {
+.menu-list {
     margin-left: 25px;
+    list-style-type: none;
     font-family: 'opensans-regular', 'arial', sans-serif;
     font-size: 18px;
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
-    text-decoration: none;
     text-transform: uppercase;
 }
 
+.menu-link {
+    text-decoration: none;
+    color: #ffffff;
+}
 
 .menu-link:hover {
     font-size: 18px;
     line-height: 24px;
     font-weight: 700;
     color: #e2d1a6;
+}
+
+.menu-blok {
+    display: block;
+    position: absolute;
+    width: 149px;
+    min-height: 132px;
+    background-color: #353436;
+    top: 164px;
+}
+.menu-block-list {
+    margin-top: 17px;
+}
+.list-item {
+    list-style-type: none;
+    font-family: 'opensans-regular', 'arial', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: -30px;
+}
+
+
+
+
+.link-services:after {
+    content: "";
+    display: block;
+    width: 132px;
+    height: 1px;
+    background-color: #ffffff;
+    /*border: 0.8px solid #ffffff;*/
+}
+
+.list-block:hover {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    color: #e2d1a6;
+    position: relativere;
+}
+
+.list-block:hover .menu-blok {
+    display: block;
 }
 
 main {
