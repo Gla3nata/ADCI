@@ -101,9 +101,9 @@ a {
     width: 149px;
     min-height: 132px;
     background-color: #353436;
-      top: 148px;
+    top: 148px;
     left: 63%;
-    
+
 }
 
 .menu-block-list {
@@ -140,22 +140,41 @@ a {
     display: block;
 }
 
-.link-services{
-font-size: 16px;
-color: #fffefe;  
+.link-services {
+    font-size: 16px;
+    color: #fffefe;
 }
 
-.link-services:hover{
-font-weight: 600;
-color: #e2d1a6; 
+.link-services:hover {
+    font-weight: 600;
+    color: #e2d1a6;
 }
 
-main {
-    min-height: 769px;
-    background-color: #353422;
-    /*    background-image: url(../img/fabulous_modern_pendant_lamp_for_dining_room_1705.jpg);*/
+.slider {
+    min-height: 670px;
+    background-color: #54533e;
+    background-image: url(../img/fabulous_modern_pendant_lamp_for_dining_room_1705.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
 }
-
+/*
+.content {
+    border: 1px solid black;
+    width: 41%;
+    min-height: 138px;
+opacity: 0.85;
+background-color: #ffffff;
+        display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: -90px;
+}
+*/
+.content .heading {
+}
+.content .text {
+}
 
 
 
