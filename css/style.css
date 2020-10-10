@@ -176,11 +176,10 @@ a {
 }
 
 .content {
-
     min-height: 138px;
     opacity: 0.85;
     background-color: #fff;
-    margin: 0 0 229px 0;
+    margin: 0 0 221px 0;
     border: 1px solid #ccc;
     width: 41%;
     align-self: flex-end;
@@ -215,8 +214,8 @@ a {
 .pagination-item {
     display: block;
     border-radius: 50%;
-    width: 14px;
-    height: 14px;
+    width: 12px;
+    height: 12px;
     background-color: #ffffff;
     border: 1.5px solid #000000;
     margin: 5px;
