@@ -110,10 +110,11 @@ body {
     width: 149px;
     min-height: 132px;
     background-color: #353436;
-    top: 164px;
+    top: 148px;
+    right: 224px;
 }
 .menu-block-list {
-    margin-top: 17px;
+    margin-top: 13px;
 }
 .list-item {
     list-style-type: none;
