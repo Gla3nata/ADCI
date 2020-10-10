@@ -248,4 +248,5 @@ a {
 footer {
     min-height: 274px;
     background-color: #353436;
+    display: flex;
 }
