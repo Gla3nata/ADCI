@@ -53,20 +53,20 @@ a {
     background-color: #353436;
 }
 
-.menu-srvizio {
+.menu {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
     margin: 0;
 }
 
-.menu-srvizio-list {
+.menu-list {
     font-size: 14px;
     text-transform: uppercase;
     margin-left: 10px;
 }
 
-.srvizio-svg {
+.lock-svg {
     fill: #fff;
 }
 
@@ -88,13 +88,13 @@ a {
     justify-content: flex-end;
 }
 
-.menu-header-list {
+.menu-header {
     display: flex;
     justify-content: space-between;
     margin-top: 60px;
 }
 
-.menu-list {
+.menu-header-list {
     margin-left: 25px;
     list-style-type: none;
     font-size: 18px;
@@ -106,18 +106,47 @@ a {
     color: #e2d1a6;
 }
 
-.menu-blok {
-    display: block;
+
+.list-dropdown: {
+     position: relativere;
+   display: flex;
+}
+
+.dropdown {
+/* display: none;*/
     position: absolute;
-    width: 149px;
-    min-height: 132px;
     background-color: #353436;
     top: 125px;
     left: 63%;
-
+ width: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 3s;
 }
 
-.menu-block-list {
+/*
+.dropdown {
+position: absolute;
+    background-color: #353436;
+    top: 125px;
+    left: 63%;
+display: block;
+width: 149px;;
+  height: 132px;
+}
+*/
+.list-dropdown:hover {
+    font-size: 18px;
+    color: #e2d1a6; 
+}
+
+.list-dropdown:hover .dropdown {
+  width: 149px;;
+  height: 132px;
+  transition: all 1s;
+}
+
+.menu-dropdown {
     margin-top: 13px;
 }
 
@@ -139,16 +168,6 @@ a {
     height: 1px;
     background-color: #ffffff;
     /*border: 0.8px solid #ffffff;*/
-}
-
-.list-block:hover {
-    font-size: 18px;
-    color: #e2d1a6;
-    position: relativere;
-}
-
-.list-block:hover .menu-blok {
-    display: block;
 }
 
 .link-services {
@@ -179,7 +198,7 @@ a {
     min-height: 138px;
     opacity: 0.85;
     background-color: #fff;
-    margin: 0 0 221px 0;
+    margin: 0 0 229px 0;
     border: 1px solid #ccc;
     width: 41%;
     align-self: flex-end;
