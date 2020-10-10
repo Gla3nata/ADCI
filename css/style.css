@@ -218,7 +218,7 @@ a {
     height: 12px;
     background-color: #ffffff;
     border: 1.5px solid #000000;
-    margin: 5px;
+    margin: 0 8px 12px 1px;
 }
 
 .pagination-item:hover {
