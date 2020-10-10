@@ -180,7 +180,7 @@ a {
     min-height: 138px;
     opacity: 0.85;
     background-color: #fff;
-    margin: 0 0 0 0;
+    margin: 0 0 39px 0;
     border: 1px solid #ccc;
     width: 41%;
 }
@@ -193,15 +193,15 @@ a {
     font-style: italic;
     text-transform: uppercase;
     color: #020202;
-    padding: 18px 20px;
-    margin: 0;
+    padding: 0px 25px;
+    margin: 20px 0 0 0;
 }
 
 .txt {
     font-size: 18px;
     color: #000000;
-    padding: 18px 20px;
-    margin: 0;
+    padding: 0 27px;
+    margin: 27px 0 0 0;
 }
 
 /*
