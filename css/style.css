@@ -21,8 +21,15 @@
 body {
     width: 1240px;
     margin: 0 auto;
-    font-family: Arial;
+    color: #fff;
+    font-family: 'opensans-regular', 'arial', sans-serif;
+    line-height: 24px;
     font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
 }
 
 .padding-site {
@@ -31,7 +38,6 @@ body {
 }
 
 .page-header {
-    color: #fff;
     min-height: 130px;
     background-color: #353436;
 }
@@ -44,11 +50,7 @@ body {
 }
 
 .menu-srvizio-list {
-    font-family: 'opensans-regular', 'arial', sans-serif;
     font-size: 14px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #ffffff;
     text-transform: uppercase;
     margin-left: 10px;
 }
@@ -84,22 +86,11 @@ body {
 .menu-list {
     margin-left: 25px;
     list-style-type: none;
-    font-family: 'opensans-regular', 'arial', sans-serif;
     font-size: 18px;
-    line-height: 24px;
-    font-weight: 400;
-    color: #ffffff;
     text-transform: uppercase;
 }
 
-.menu-link {
-    text-decoration: none;
-    color: #ffffff;
-}
-
 .menu-link:hover {
-    font-size: 18px;
-    line-height: 24px;
     font-weight: 700;
     color: #e2d1a6;
 }
@@ -110,12 +101,15 @@ body {
     width: 149px;
     min-height: 132px;
     background-color: #353436;
-    top: 148px;
-    right: 224px;
+      top: 148px;
+    left: 63%;
+    
 }
+
 .menu-block-list {
     margin-top: 13px;
 }
+
 .list-item {
     list-style-type: none;
     font-family: 'opensans-regular', 'arial', sans-serif;
@@ -126,9 +120,6 @@ body {
     text-transform: uppercase;
     margin-left: -30px;
 }
-
-
-
 
 .link-services:after {
     content: "";
@@ -141,8 +132,6 @@ body {
 
 .list-block:hover {
     font-size: 18px;
-    line-height: 24px;
-    font-weight: 700;
     color: #e2d1a6;
     position: relativere;
 }
@@ -151,17 +140,23 @@ body {
     display: block;
 }
 
-main {
-    min-height: 769px;
-    background-color: #353436;
-    background-image: url(../img/fabulous_modern_pendant_lamp_for_dining_room_1705.jpg);
+.link-services{
+font-size: 16px;
+color: #fffefe;  
 }
 
-/*
-.menu-link:active {
-    color: gold;
+.link-services:hover{
+font-weight: 600;
+color: #e2d1a6; 
 }
-*/
+
+main {
+    min-height: 769px;
+    background-color: #353422;
+    /*    background-image: url(../img/fabulous_modern_pendant_lamp_for_dining_room_1705.jpg);*/
+}
+
+
 
 
 /*
