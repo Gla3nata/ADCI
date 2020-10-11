@@ -291,7 +291,7 @@ footer {
     font-weight: 700;
     text-transform: uppercase;
     color: #fefefe;
-    margin-bottom: 18px 0 0 0;
+    margin: 0 0 17px 0;
 }
 
 .meta-text {
@@ -302,6 +302,9 @@ footer {
     color: #ffffff;
     flex-wrap: wrap;
     margin: 0;
+}
+.subscription {
+    width: 20%;
 }
 
 input {
@@ -361,10 +364,28 @@ input[type="submit"]:active {
     width: 100%;
     min-height: 18px;
     display: flex;
+    justify-content: space-between;
+     margin: 0 20px 17px 19px;
 }
 .contact-txt {
     font-family: 'opensans-regular', 'arial', sans-serif;
 font-size: 12px;
 line-height: 24px;
 font-weight: 400;
+    margin: 0;
 }
+.social {
+}
+.languages {
+    display: flex;
+}
+.lang {
+    margin: 0;
+    font-family: 'opensans-regular', 'arial', sans-serif;
+font-size: 14px;
+line-height: 24px;
+font-weight: 400;
+    border-right: 1px solid #fff;
+    padding: 0 6px 0 6px;
+}
+
