@@ -139,13 +139,12 @@ width: 149px;;
 
 
 .list-dropdown:hover {
-    font-size: 18px;
+    font-weight: 700;
     color: #e2d1a6;
 }
 
 .list-dropdown:hover .menu-dropdown {
     width: 149px;
-    ;
     height: 132px;
     transition: all 1s;
 }
@@ -268,4 +267,98 @@ footer {
     min-height: 274px;
     background-color: #353436;
     display: flex;
+    flex-wrap: wrap;
+    padding: 39px 155px 20px 158px;
+
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.meta {
+    width: 20%;
+    min-height: 180px;
+    /*        border: 1px solid gray;*/
+    flex-wrap: wrap;
+}
+
+.meta-heaing {
+    font-family: 'playfairdisplay-bold', 'arial', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fefefe;
+}
+
+.meta-text {
+    font-family: 'opensans-light', 'arial', sans-serif;
+    font-size: 12px;
+    line-height: 17px;
+    font-weight: 300;
+    color: #ffffff;
+    flex-wrap: wrap;
+}
+
+
+input {
+    margin: 0 0 10px 0;
+    padding: 5px;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    background-color: #ffffff;
+    outline: none;
+}
+
+.user {
+    width: 184px;
+    height: 32px;
+    border: 1px solid #ccc;
+}
+
+.user:focus {
+    border: 2px solid #e2d1a6;
+}
+
+.chek-txt {
+    font-family: 'opensans-regular', 'arial', sans-serif;
+font-size: 10px;
+line-height: 24px;
+font-weight: 400;
+color: #b5b4b4;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto 10px auto;
+    text-transform: uppercase;
+    width: 184px;
+    height: 32px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    font-family:'opensans-regular', 'arial', sans-serif;
+font-size: 17.7px;
+line-height: 23px;
+font-weight: 400;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #ccc;
+    color: #fff;
+}
+
+input[type="submit"]:active {
+    background-color: #fff;
+    color: #000;
+}
+
+.links-block {
+    width: 100%;
+    min-height: 18px;
+    background-color: azure;
 }
