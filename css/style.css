@@ -274,7 +274,7 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 31px 158px 20px 155px;
+    padding: 31px 158px 11px 155px
 }
 
 .meta {
@@ -379,8 +379,14 @@ line-height: 24px;
 font-weight: 400;
     margin: 0;
 }
-.social {
+
+.social-link {
+    font-size: 20px;
+     margin: 5px;
 }
+
+
+
 .languages {
     display: flex;
 }
