@@ -208,6 +208,7 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-bottom: 28px;
 }
 
 .pagination-item {
@@ -228,9 +229,7 @@ a {
 
 .popup {
     width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+
     box-sizing: border-box;
     position: relative;
     border: 1px solid green;
@@ -238,8 +237,20 @@ a {
 
 .slider-arrow {
     width: 88px;
-height: 29px;
-background-color: #ffffff; 
+    height: 29px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    border: none;
+    outline: none;
+}
+
+.svg-button {
+    stroke: #1a150f;
+    fill: none;
+    stroke-width: 6;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    margin-left: -7px;
 }
 
 
@@ -247,23 +258,22 @@ background-color: #ffffff;
 .box {
 
     box-sizing: border-box;
-  width: 1200px;
+    width: 1200px;
     height: 28px;
     position: absolute;
     left: 40px;
     bottom: 0px;
     flex-wrap: wrap;
-
     overflow: hidden;
     transition: all 3s;
-    
-    
-  
-    
+
     display: flex;
 }
-.down{
-    width: 100%;
+
+.boxy {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .preview {
@@ -523,20 +533,20 @@ input[type="submit"]:active {
 .modal-content {
     background-color: #353436;
     margin: auto;
-   
+
     border: 1px solid #888;
     width: 596px;
-        min-height: 361px;
+    min-height: 361px;
     margin-top: 250px;
 }
 
 .close {
-       color: #fff;
+    color: #fff;
     float: right;
-        margin-right: 28px;
+    margin-right: 28px;
     font-size: 41px;
     font-weight: 200;
-   }
+}
 
 .close:hover,
 .close:focus {
