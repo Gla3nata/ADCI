@@ -114,11 +114,9 @@ a {
     position: absolute;
     top: 40px;
     left: -10px;
-    /* display: none; */
     width: 0;
     height: 0;
     overflow: hidden;
-    /* transition: width 1s; */
     transition: all 3s;
     z-index: 1;
     margin: 6px;
@@ -127,12 +125,9 @@ a {
 }
 
 .menu-header > li:hover ul {
-    /* display: block; */
     width: 149px;
     height: 140px;
-    /*  transition: width 0.5s; */
     transition: all 1s;
-
 }
 
 .list-item {
@@ -233,22 +228,33 @@ a {
 
 .popup {
     width: 100%;
-    /*    min-height: 172px;*/
-    /*    border: 1px solid red;*/
     display: flex;
     justify-content: center;
-    /*    position: absolute;*/
     flex-wrap: wrap;
     box-sizing: border-box;
+    position: relative;
+    border: 1px solid green;
 }
 
+.slider-arrow {
+    width: 88px;
+height: 29px;
+background-color: #ffffff; 
+}
+.svg-up{
+   
+}
+
+/*
 .back {
-    width: 84px;
-    height: 28px;
+    width: 88px;
+    height: 29px;
     background-color: #ffffff;
 }
+*/
 
 
+/*
 .slider-arrow {
     border: 1px solid black;
     display: block;
@@ -259,24 +265,21 @@ a {
     border-top: 2px solid #020202;
     border-left: 2px solid #020202;
     transform: rotate(45deg);
+    background-color: transparent;
 }
+*/
 
 .box {
     box-sizing: border-box;
-    display: none;
+   display: none;
+    position: absolute;
+    left: 40px;
+    bottom: 0px;
+    flex-wrap: wrap;
 }
-
-.slider-arrow:hover {
-    transform: rotate(225deg);
-    margin: 0 auto;
-    transition: all 1s;
+.down{
+    width: 100%;
 }
-
-.popup:hover .box {
-    display: flex;
-    transition: all 5s ease;
-}
-
 
 .preview {
     width: 400px;
