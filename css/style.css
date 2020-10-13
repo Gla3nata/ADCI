@@ -59,25 +59,25 @@ a {
     display: flex;
     justify-content: flex-end;
     margin: 0;
-    position: relative
+    position: relative;
+    margin: 2px 22px 0 0px;
 }
 
 .menu-title {
     font-size: 14px;
     text-transform: uppercase;
+        margin: 0 10px 0 0px;
 }
 
 .lock-svg {
     fill: #fff;
-    margin-bottom: 2px;
+    margin-top: 5px;
 }
 
 .homepage-header {
     display: flex;
     margin: 0;
-     border: 1px solid brown;
      justify-content: space-between;
-    background-color: wheat;
 }
 
 .logo-svg {
@@ -88,49 +88,42 @@ a {
 }
 
 .menu-navigacion {
-     border: 1px solid white;
     width: 45%;
     margin: 0;
     padding: 0;
 }
  .menu-header {
-      border: 1px solid blue;
 }
 
 .menu-link {
-    border: 1px solid yellow;
 }
  .menu-dropdown {
 }
 .list-item {
-     border: 1px solid green;
 }
 .link-services {
 }
 
 .menu-header-list {
-    list-style-type: none;
     margin-left: 25px;
     list-style-type: none;
     font-size: 18px;
     text-transform: uppercase;
     display: flex;
     width: 100px;
-    height: 40px;
+    min-height: 24px;
     position: relative;
-    border: 1px solid red;
-
 }
 
 .menu-header {
     width: 105px;
     display: flex;
-/*    margin-top: 50px;*/
+margin-top: 59px;
 }
 
 .menu-header > li ul {
     position: absolute;
-    top: 50px;
+    top: 40px;
     left: -10px;
     /* display: none; */
     width: 0;
