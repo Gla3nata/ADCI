@@ -30,7 +30,7 @@
 }
 
 body {
-    width: 1240px;
+    width: 1280px;
     margin: 0 auto;
     color: #fff;
     font-family: 'opensans-regular', 'arial', sans-serif;
@@ -75,13 +75,36 @@ a {
 .homepage-header {
     display: flex;
     margin: 0;
+     border: 1px solid brown;
+     justify-content: space-between;
 }
 
 .logo-svg {
     fill: currentColor;
     width: 400px;
     height: 83px;
-    margin-right: 65px;
+    margin-left: -39px;
+}
+
+.menu-navigacion {
+     border: 1px solid white;
+    width: 45%;
+    margin: 0;
+    padding: 0;
+}
+ .menu-header {
+      border: 1px solid blue;
+}
+
+.menu-link {
+    border: 1px solid yellow;
+}
+ .menu-dropdown {
+}
+.list-item {
+     border: 1px solid green;
+}
+.link-services {
 }
 
 .menu-header-list {
@@ -94,13 +117,14 @@ a {
     width: 100px;
     height: 40px;
     position: relative;
+    border: 1px solid red;
 
 }
 
 .menu-header {
     width: 105px;
     display: flex;
-    margin-top: 50px;
+/*    margin-top: 50px;*/
 }
 
 .menu-header > li ul {
