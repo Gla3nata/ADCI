@@ -241,41 +241,26 @@ a {
 height: 29px;
 background-color: #ffffff; 
 }
-.svg-up{
-   
-}
-
-/*
-.back {
-    width: 88px;
-    height: 29px;
-    background-color: #ffffff;
-}
-*/
 
 
-/*
-.slider-arrow {
-    border: 1px solid black;
-    display: block;
-    width: 25px;
-    height: 25px;
-    margin: 12px auto;
-    border: none;
-    border-top: 2px solid #020202;
-    border-left: 2px solid #020202;
-    transform: rotate(45deg);
-    background-color: transparent;
-}
-*/
 
 .box {
+
     box-sizing: border-box;
-   display: none;
+  width: 1200px;
+    height: 28px;
     position: absolute;
     left: 40px;
     bottom: 0px;
     flex-wrap: wrap;
+
+    overflow: hidden;
+    transition: all 3s;
+    
+    
+  
+    
+    display: flex;
 }
 .down{
     width: 100%;

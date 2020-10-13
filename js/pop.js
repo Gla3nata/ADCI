@@ -1,7 +1,11 @@
-let isHide = true;
+let isDouwn = false;
+let box = document.querySelector('.box');
 
-function showPop() {
-    isHide = !isHide;
-    console.log(isHide);
-    document.querySelector('.box').style.display = isHide ? 'none' : 'flex';
+function hidePop() {   
+    isDouwn = !isDouwn
+    box.style.height = isDouwn ? '179px' :'28px' ; 
 }
+
+//function hidePop() { 
+//    box.style.height = ;   
+//}
