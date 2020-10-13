@@ -512,17 +512,12 @@ input[type="submit"]:active {
 
 .modal {
     display: none;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
     text-align: center;
-    position: absolute;
     left: 0;
     top: 0;
     z-index: 2;
     background-color: #ffffff;
     position: fixed;
-    padding-top: 100px;
     left: 0;
     top: 0;
     width: 100%;
@@ -534,27 +529,26 @@ input[type="submit"]:active {
 .modal-form {
     display: flex;
     background-color: #353436;
-    border: 0.8px solid #ffffff;
     justify-content: center;
 }
 
 .modal-content {
     background-color: #353436;
     margin: auto;
-    padding: 20px;
+   
     border: 1px solid #888;
-    width: 80%;
     width: 596px;
-    min-height: 361px;
+        min-height: 361px;
     margin-top: 250px;
 }
 
 .close {
-    color: #fff;
+       color: #fff;
     float: right;
-    font-size: 28px;
-    font-weight: bold;
-}
+        margin-right: 28px;
+    font-size: 41px;
+    font-weight: 200;
+   }
 
 .close:hover,
 .close:focus {
@@ -574,6 +568,7 @@ legend {
     line-height: 23px;
     font-weight: 700;
     text-transform: uppercase;
+    text-align: left;
 }
 
 .password {
