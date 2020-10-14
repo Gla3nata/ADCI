@@ -295,7 +295,7 @@ color: #e2d1a6;
     line-height: 30px;
     font-weight: 700;
     color: #000000;
-    margin: 17px 0 9px 15px;
+    margin: 14px 0 5px 15px;
 }
 
 .preview-txt {
@@ -304,7 +304,7 @@ color: #e2d1a6;
     line-height: 24px;
     font-weight: 400;
     color: #000000;
-    margin: 17px 21px 9px 15px;
+    margin: 0 21px 9px 15px;
 }
 
 .aside {
@@ -313,7 +313,7 @@ color: #e2d1a6;
     line-height: 24px;
     font-weight: 400;
     color: #ffffff;
-    margin: 17px 21px 9px 15px;
+    margin: 3px 21px 9px 15px;
     text-align: end;
 }
 
@@ -331,7 +331,7 @@ color: #e2d1a6;
 
 .preview-txt-last {
     color: #fefefe;
-    margin-top: 48px;
+    margin-top: 30px;
 }
 
 footer {
@@ -376,6 +376,7 @@ footer {
 
 .subscription {
     width: 20%;
+    margin-right: 27px;
 }
 
 input {
@@ -437,7 +438,9 @@ input[type="submit"]:active {
     min-height: 18px;
     display: flex;
     justify-content: space-between;
-    margin: 5px 28px 17px 16px;
+   margin: 5px 29px 17px 18px;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .contact {
@@ -466,6 +469,7 @@ input[type="submit"]:active {
 
 .languages {
     display: flex;
+    margin-right: -3px;
 }
 
 .lang {
