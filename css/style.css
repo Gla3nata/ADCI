@@ -87,13 +87,13 @@ a {
     padding: 0;
 }
 .menu-header {
-    width: 105px;
+/*    width: 105px;*/
     display: flex;
-    margin-top: 59px;
+    margin: 63px 18px 0px 2px;
 }
 
 .menu-header-list {
-    margin-left: 25px;
+    margin-left: 27px;
     list-style-type: none;
     font-size: 18px;
     text-transform: uppercase;
@@ -107,6 +107,7 @@ a:hover,
 .meta-heaing:hover,
 .meta-text:hover{   
 color: #e2d1a6;
+    font-weight: 700;
 }
 
 .menu-header > li ul {
