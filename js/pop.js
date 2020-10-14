@@ -7,7 +7,3 @@ function showPop() {
     box.style.height = isDouwn ? '200px' :'28px' ;
     arrow.style.transform = isDouwn ? "rotate(180deg)" : "rotate(0)";
 }
-
-//function hidePop() { 
-//    box.style.height = ;   
-//}

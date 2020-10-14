@@ -45,7 +45,7 @@ a {
 .page-header {
     min-height: 130px;
     background-color: #353436;
-     padding: 0 20px;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
@@ -86,6 +86,7 @@ a {
     margin: 0;
     padding: 0;
 }
+
 .menu-header {
     display: flex;
     margin: 60px 18px 0px 2px;
@@ -101,18 +102,20 @@ a {
     min-height: 24px;
     position: relative;
 }
+
 a:hover,
 .menu-header-list:hover,
 .meta-heaing:hover,
-.meta-text:hover{   
-color: #e2d1a6;
+.meta-text:hover {
+    color: #e2d1a6;
     font-weight: 700;
 }
+
 a:active,
 .menu-header-list:active,
 .meta-heaing:active,
-.meta-text:active{   
-color: #8c8c8c;
+.meta-text:active {
+    color: #8c8c8c;
 }
 
 .menu-header > li ul {
@@ -443,7 +446,7 @@ input[type="submit"]:active {
     min-height: 18px;
     display: flex;
     justify-content: space-between;
-   margin: 5px 29px 17px 18px;
+    margin: 5px 29px 17px 18px;
     padding: 0 20px;
     box-sizing: border-box;
 }
